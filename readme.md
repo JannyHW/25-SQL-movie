@@ -37,6 +37,7 @@ Complete the following query objectives:
 * Select only the title and id of the first 10 rows
 * Find the movie with the id of 485
 * Find the id (only that column) of the movie Made in America (1993)
+* 
 * Find the first 10 sorted alphabetically
 * Find all movies from 2002
 * Find out what year the Godfather came out
@@ -44,10 +45,10 @@ Complete the following query objectives:
 * Find all comedies in the year 2000
 * Find any movies that are about death and are a comedy
 * Find any movies from either 2001 or 2002 with a title containing super
-* Create a new table called actors (We are going to pretend the actor can only play in one movie). The table should include name, character name, foreign key to movies and date of birth at least plus an id field.
+<!-- * Create a new table called actors (We are going to pretend the actor can only play in one movie). The table should include name, character name, foreign key to movies and date of birth at least plus an id field.
 * Pick 3 movies and create insert statements for 10 actors each.  You should use the multi value insert statements
 * Create a new column in the movie table to hold the MPAA rating.
-UPDATE 5 different movies to their correct rating
+UPDATE 5 different movies to their correct rating -->
 
 ### With Joins
 * Find all the ratings for the movie Godfather, show just the title and the rating

@@ -123,8 +123,7 @@ ORDER BY h DESC
 LIMIT 1 
 
 -- Q7 : Find the user with the highest average rating with more than 50 reviews
-SELECT AVG(rating) h,
-   user_id,
+SELECT AVG(rating) h, user_id,
    COUNT(rating) r
 FROM ratings
 GROUP BY user_id
